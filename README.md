@@ -1,12 +1,77 @@
-# React + Vite
+Smart Goal Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and powerful fintech app that helps users manage multiple savings goals, track progress, and make deposits — all backed by a local RESTful API using `json-server`.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+Create, Read, Update, Delete (CRUD) financial goals
+Add deposits toward each goal
+Visual progress tracking with bars
+Warning alerts for approaching or missed deadlines
+Overview dashboard with useful savings insights
+Responsive card layout for goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Tech Stack
+
+- Frontend: React, Tailwind CSS, JavaScript (ES6+)
+- Backend: JSON Server (`db.json` as a local REST API)
+- Styling: Tailwind + custom CSS modules
+- Tooling: Vite (for fast dev server)
+
+
+Project structure
+
+smart-goal-planner
+├── public
+├── src
+│   ├── components
+│   │   ├── GoalItem.jsx
+│   │   ├── GoalForm.jsx
+│   │   ├── GoalCard.jsx
+│   │   ├── DepositForm.jsx
+│   │   ├── Overview.jsx
+    |   ├── EditGoalForm.jsx
+    |   ├── Header.jsx
+    |   ├── Overview.jsx
+    |
+    ├── pages
+    |    ├── Dashboard.jsx
+    |
+│   ├── styles
+│   │   ├── App.css
+│   │   ├── GoalItem.css
+│   │   ├── Overview.css
+    |   ├── Dashboard.css
+    |   ├── DepositForm.css
+    |   ├── GoalCard.css
+    |   ├── GoalList.css
+    |   ├── Header.css
+    |
+    |
+    |
+    |
+│   ├── utils
+│   │   └── api.js
+│   └── App.jsx
+    ├── main.jsx
+    ├── index.html
+├── db.json
+├── tailwind.config.js
+└── README.md
+
+
+
+Future Improvements
+
+User authentication
+Mobile-first enhancements
+Notifications/reminders
+
+Author
+Collins Opiayo
+Fintech & Full Stack Developer
+
+License
+This project is licensed under the MIT License.
