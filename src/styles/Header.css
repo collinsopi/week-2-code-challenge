@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #007cf0, #00dfd8);
+  padding: 20px 30px;
+  border-radius: 0 0 15px 15px;
+  color: white;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #e0f7fa;
+}
+
+.btn-save {
+  background-color: white;
+  color: #007cf0;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-save:hover {
+  background-color: #e0f7fa;
+}
