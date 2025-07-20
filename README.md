@@ -21,6 +21,11 @@ Tech Stack
 - Tooling: Vite (for fast dev server)
 
 
+The app will be running at:
+Frontend → http://localhost:5174
+Backend API → http://localhost:3000/goals
+
+
 Project structure
 
 smart-goal-planner
