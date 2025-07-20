@@ -22,7 +22,7 @@ Tech Stack
 
 
 The app will be running at:
-Frontend → http://localhost:5174
+Frontend →  http://localhost:5174/week-2-code-challenge/
 Backend API → http://localhost:3000/goals
 
 
