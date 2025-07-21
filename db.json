@@ -80,6 +80,15 @@
       "category": "Home",
       "deadline": "2025-03-31",
       "createdAt": "2024-05-15"
+    },
+    {
+      "id": "f9890a7e-c6df-450a-91d5-41bceb73a940",
+      "name": "Travel Fund - Dubai",
+      "targetAmount": 10000,
+      "savedAmount": 0,
+      "category": "Travel",
+      "deadline": "2025-07-30",
+      "createdAt": "2025-07-21"
     }
   ]
 }

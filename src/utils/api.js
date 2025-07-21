@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/goals";
+const BASE_URL = "https://smart-goal-manager.onrender.com/";
 
 export const fetchGoals = async () => {
   const res = await fetch(BASE_URL);
@@ -15,7 +15,7 @@ export const createGoal = async (goal) => {
 };
 
 export async function updateGoal(id, updatedData) {
-  const res = await fetch(`http://localhost:3000/goals/${id}`, {
+  const res = await fetch(`${BASE_URL}/goals/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(updatedData),
