@@ -1,4 +1,4 @@
-const BASE_URL = "https://smart-goal-manager.onrender.com/goals";
+const BASE_URL = "https://week-2-code-challenge-db.onrender.com/goals";
 
 export const fetchGoals = async () => {
   const res = await fetch(BASE_URL);
